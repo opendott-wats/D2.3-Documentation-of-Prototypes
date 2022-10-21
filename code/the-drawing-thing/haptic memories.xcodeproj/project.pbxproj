@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1E885228F418DF009EAB6D /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E885128F418DF009EAB6D /* CGPoint.swift */; };
+		AF46ED5D258BEA10007291E9 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF46ED5C258BEA10007291E9 /* CoreHaptics.framework */; };
+		AF46ED65258BFF94007291E9 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46ED64258BFF94007291E9 /* ShareSheet.swift */; };
+		AF47034F25894F03001A6AEF /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47034E25894F03001A6AEF /* DrawingView.swift */; };
+		AF47035425894F3C001A6AEF /* RhythmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47035325894F3C001A6AEF /* RhythmProvider.swift */; };
+		AF56D39625AD7ACF0005E2B4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF56D39525AD7ACF0005E2B4 /* HealthKit.framework */; };
+		AFB2E3BE257570740060CD32 /* haptic_memoriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB2E3BD257570740060CD32 /* haptic_memoriesApp.swift */; };
+		AFB2E3C0257570740060CD32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB2E3BF257570740060CD32 /* ContentView.swift */; };
+		AFB2E3C2257570750060CD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB2E3C1257570750060CD32 /* Assets.xcassets */; };
+		AFB2E3C5257570750060CD32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB2E3C4257570750060CD32 /* Preview Assets.xcassets */; };
+		E001B09225D3F977000CE9B6 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E001B09125D3F977000CE9B6 /* Actions.swift */; };
+		E011138525D2EE94006AB448 /* MapNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E011138425D2EE94006AB448 /* MapNumeric.swift */; };
+		E011138925D2EF37006AB448 /* RandomRhythmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E011138825D2EF37006AB448 /* RandomRhythmProvider.swift */; };
+		E02346022721C928006F7914 /* OrientationBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02346012721C928006F7914 /* OrientationBasedView.swift */; };
+		E02D56842728342B007089B2 /* Samples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E02D56822728342B007089B2 /* Samples.xcdatamodeld */; };
+		E02D568627283526007089B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D568527283526007089B2 /* Persistence.swift */; };
+		E02D56882728378E007089B2 /* ColourSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D56872728378E007089B2 /* ColourSampler.swift */; };
+		E030F03425B2128B00E3CAA1 /* HealthRhythmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030F03325B2128B00E3CAA1 /* HealthRhythmProvider.swift */; };
+		E054ED58270CC12D00992F7A /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E054ED57270CC12D00992F7A /* Drawing.swift */; };
+		E08A56AF26F4EE290070A2B9 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A56AE26F4EE290070A2B9 /* SettingsSheet.swift */; };
+		E0A2AC1826D8D0AB00EE97C5 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A2AC1726D8D0AB00EE97C5 /* HSL.swift */; };
+		E0BA53D52718091E004774BF /* ColourSamplerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA53D42718091E004774BF /* ColourSamplerView.swift */; };
+		E0BA53D727183435004774BF /* ColourCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA53D627183435004774BF /* ColourCamera.swift */; };
+		E0C10233271F2986006C3659 /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C10232271F2986006C3659 /* UIImageColors.swift */; };
+		E0C10235271F2AE9006C3659 /* UIImageAvarageColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C10234271F2AE9006C3659 /* UIImageAvarageColour.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1E885128F418DF009EAB6D /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		AF46ED5C258BEA10007291E9 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
+		AF46ED64258BFF94007291E9 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		AF47034E25894F03001A6AEF /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		AF47035325894F3C001A6AEF /* RhythmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmProvider.swift; sourceTree = "<group>"; };
+		AF51FFEA258CA42800FDCD1E /* haptic memories.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "haptic memories.entitlements"; sourceTree = "<group>"; };
+		AF56D39525AD7ACF0005E2B4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AFB2E3BA257570740060CD32 /* The Drawing Thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Drawing Thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB2E3BD257570740060CD32 /* haptic_memoriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haptic_memoriesApp.swift; sourceTree = "<group>"; };
+		AFB2E3BF257570740060CD32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFB2E3C1257570750060CD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB2E3C4257570750060CD32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFB2E3C6257570750060CD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E001B09125D3F977000CE9B6 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		E011138425D2EE94006AB448 /* MapNumeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNumeric.swift; sourceTree = "<group>"; };
+		E011138825D2EF37006AB448 /* RandomRhythmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRhythmProvider.swift; sourceTree = "<group>"; };
+		E02346012721C928006F7914 /* OrientationBasedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationBasedView.swift; sourceTree = "<group>"; };
+		E02D56832728342B007089B2 /* Samples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Samples.xcdatamodel; sourceTree = "<group>"; };
+		E02D568527283526007089B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E02D56872728378E007089B2 /* ColourSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourSampler.swift; sourceTree = "<group>"; };
+		E030F03325B2128B00E3CAA1 /* HealthRhythmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRhythmProvider.swift; sourceTree = "<group>"; };
+		E054ED57270CC12D00992F7A /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		E08A56AE26F4EE290070A2B9 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		E0A2AC1726D8D0AB00EE97C5 /* HSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
+		E0BA53D42718091E004774BF /* ColourSamplerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourSamplerView.swift; sourceTree = "<group>"; };
+		E0BA53D627183435004774BF /* ColourCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourCamera.swift; sourceTree = "<group>"; };
+		E0C10232271F2986006C3659 /* UIImageColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageColors.swift; path = external/UIImageColors.swift; sourceTree = "<group>"; };
+		E0C10234271F2AE9006C3659 /* UIImageAvarageColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageAvarageColour.swift; path = external/UIImageAvarageColour.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB2E3B7257570740060CD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF46ED5D258BEA10007291E9 /* CoreHaptics.framework in Frameworks */,
+				AF56D39625AD7ACF0005E2B4 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF46ED5B258BEA10007291E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF56D39525AD7ACF0005E2B4 /* HealthKit.framework */,
+				AF46ED5C258BEA10007291E9 /* CoreHaptics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB2E3B1257570740060CD32 = {
+			isa = PBXGroup;
+			children = (
+				AFB2E3BC257570740060CD32 /* haptic memories */,
+				AFB2E3BB257570740060CD32 /* Products */,
+				AF46ED5B258BEA10007291E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB2E3BB257570740060CD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB2E3BA257570740060CD32 /* The Drawing Thing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB2E3BC257570740060CD32 /* haptic memories */ = {
+			isa = PBXGroup;
+			children = (
+				E0C10231271F297A006C3659 /* external */,
+				E001B09125D3F977000CE9B6 /* Actions.swift */,
+				E0BA53D627183435004774BF /* ColourCamera.swift */,
+				E02D56872728378E007089B2 /* ColourSampler.swift */,
+				E0BA53D42718091E004774BF /* ColourSamplerView.swift */,
+				AFB2E3BF257570740060CD32 /* ContentView.swift */,
+				AF47034E25894F03001A6AEF /* DrawingView.swift */,
+				E054ED57270CC12D00992F7A /* Drawing.swift */,
+				AFB2E3BD257570740060CD32 /* haptic_memoriesApp.swift */,
+				E08A56AE26F4EE290070A2B9 /* SettingsSheet.swift */,
+				E011138B25D2EF72006AB448 /* lib */,
+				E011138D25D2EFB7006AB448 /* other */,
+				E011138725D2EF1E006AB448 /* RhythmProviders */,
+				E02D56822728342B007089B2 /* Samples.xcdatamodeld */,
+				E02D568527283526007089B2 /* Persistence.swift */,
+			);
+			path = "haptic memories";
+			sourceTree = "<group>";
+		};
+		AFB2E3C3257570750060CD32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFB2E3C4257570750060CD32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E011138725D2EF1E006AB448 /* RhythmProviders */ = {
+			isa = PBXGroup;
+			children = (
+				AF47035325894F3C001A6AEF /* RhythmProvider.swift */,
+				E030F03325B2128B00E3CAA1 /* HealthRhythmProvider.swift */,
+				E011138825D2EF37006AB448 /* RandomRhythmProvider.swift */,
+			);
+			path = RhythmProviders;
+			sourceTree = "<group>";
+		};
+		E011138B25D2EF72006AB448 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E02346012721C928006F7914 /* OrientationBasedView.swift */,
+				AF46ED64258BFF94007291E9 /* ShareSheet.swift */,
+				E011138425D2EE94006AB448 /* MapNumeric.swift */,
+				E0A2AC1726D8D0AB00EE97C5 /* HSL.swift */,
+				AF1E885128F418DF009EAB6D /* CGPoint.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E011138D25D2EFB7006AB448 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				AF51FFEA258CA42800FDCD1E /* haptic memories.entitlements */,
+				AFB2E3C1257570750060CD32 /* Assets.xcassets */,
+				AFB2E3C6257570750060CD32 /* Info.plist */,
+				AFB2E3C3257570750060CD32 /* Preview Content */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		E0C10231271F297A006C3659 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				E0C10232271F2986006C3659 /* UIImageColors.swift */,
+				E0C10234271F2AE9006C3659 /* UIImageAvarageColour.swift */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB2E3B9257570740060CD32 /* The Drawing Thing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB2E3DF257570750060CD32 /* Build configuration list for PBXNativeTarget "The Drawing Thing" */;
+			buildPhases = (
+				AFB2E3B6257570740060CD32 /* Sources */,
+				AFB2E3B7257570740060CD32 /* Frameworks */,
+				AFB2E3B8257570740060CD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Drawing Thing";
+			productName = "haptic memories";
+			productReference = AFB2E3BA257570740060CD32 /* The Drawing Thing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB2E3B2257570740060CD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AFB2E3B9257570740060CD32 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = AFB2E3B5257570740060CD32 /* Build configuration list for PBXProject "haptic memories" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB2E3B1257570740060CD32;
+			productRefGroup = AFB2E3BB257570740060CD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB2E3B9257570740060CD32 /* The Drawing Thing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB2E3B8257570740060CD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB2E3C5257570750060CD32 /* Preview Assets.xcassets in Resources */,
+				AFB2E3C2257570750060CD32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB2E3B6257570740060CD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E011138525D2EE94006AB448 /* MapNumeric.swift in Sources */,
+				E0C10235271F2AE9006C3659 /* UIImageAvarageColour.swift in Sources */,
+				E0A2AC1826D8D0AB00EE97C5 /* HSL.swift in Sources */,
+				E02346022721C928006F7914 /* OrientationBasedView.swift in Sources */,
+				AFB2E3C0257570740060CD32 /* ContentView.swift in Sources */,
+				AF46ED65258BFF94007291E9 /* ShareSheet.swift in Sources */,
+				E030F03425B2128B00E3CAA1 /* HealthRhythmProvider.swift in Sources */,
+				AFB2E3BE257570740060CD32 /* haptic_memoriesApp.swift in Sources */,
+				E02D568627283526007089B2 /* Persistence.swift in Sources */,
+				E011138925D2EF37006AB448 /* RandomRhythmProvider.swift in Sources */,
+				AF1E885228F418DF009EAB6D /* CGPoint.swift in Sources */,
+				E001B09225D3F977000CE9B6 /* Actions.swift in Sources */,
+				E054ED58270CC12D00992F7A /* Drawing.swift in Sources */,
+				E0C10233271F2986006C3659 /* UIImageColors.swift in Sources */,
+				E0BA53D52718091E004774BF /* ColourSamplerView.swift in Sources */,
+				AF47034F25894F03001A6AEF /* DrawingView.swift in Sources */,
+				E02D56882728378E007089B2 /* ColourSampler.swift in Sources */,
+				E08A56AF26F4EE290070A2B9 /* SettingsSheet.swift in Sources */,
+				E0BA53D727183435004774BF /* ColourCamera.swift in Sources */,
+				AF47035425894F3C001A6AEF /* RhythmProvider.swift in Sources */,
+				E02D56842728342B007089B2 /* Samples.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFB2E3DD257570750060CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB2E3DE257570750060CD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB2E3E0257570750060CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "haptic memories/haptic memories.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"haptic memories/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5J7B638A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "haptic memories/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = systems.poetic.open.hapticmemories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AFB2E3E1257570750060CD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "haptic memories/haptic memories.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"haptic memories/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5J7B638A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "haptic memories/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = systems.poetic.open.hapticmemories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB2E3B5257570740060CD32 /* Build configuration list for PBXProject "haptic memories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB2E3DD257570750060CD32 /* Debug */,
+				AFB2E3DE257570750060CD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB2E3DF257570750060CD32 /* Build configuration list for PBXNativeTarget "The Drawing Thing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB2E3E0257570750060CD32 /* Debug */,
+				AFB2E3E1257570750060CD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E02D56822728342B007089B2 /* Samples.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E02D56832728342B007089B2 /* Samples.xcdatamodel */,
+			);
+			currentVersion = E02D56832728342B007089B2 /* Samples.xcdatamodel */;
+			path = Samples.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFB2E3B2257570740060CD32 /* Project object */;
+}
