@@ -112,9 +112,13 @@ Pegs, rubber bands, and an SD card begin to seep in—first unintentionally, lat
 
 ![Snapshots from different sketch states using the p5js JavaScript toolkit](figures/figures.008.png)
 
-In parallel to making a step tracker, I addressed a research question in connection to the co-design concept 'Haptic Memories' from WP1: Can data become a resource for creative expression and reflection?
+In parallel to making a step tracker, I addressed a research question in connection to the co-design concept 'Haptic Memories' from WP1:
 
-Picking up the idea of drawing with haptic feedback induced by recordings of step data, I turned the recorded steps into virtual ink for drawing. The data became a resource for creative expression to reflect on the data of one's body through an embodied act. To prototype this aspect with a visual focus first, I used the creative coding toolkit [p5js](https://p5js.org), a successor to [Processing](http://processing.org), because I prefer using JavaScript for quick iterations and to get a feel for a programming project.
+- How can data become a resource for creative expression and reflection?
+
+By transforming step count data into (virtual) ink for drawing, the data became a resource for creative expression to reflect on the data of one's body through an embodied act of drawing.
+
+To prototype this aspect with a visual focus first, I used the creative coding toolkit [p5js](https://p5js.org), a successor to [Processing](http://processing.org), because I prefer using JavaScript for quick iterations and to get a feel for a programming project.
 
 To get a data set of actual step counts, I exported data which my smartphone captured for some time already using an application available on the app store. I picked a time window of 1 day and converted it into JSON format to load into the p5js editor.
 
@@ -124,37 +128,44 @@ The sketch is open available online: [editor.p5js.org/jns/sketches/v6paYO0wX](ht
 
 ## Insights from exploring Data as Ink
 
-In summary, the sketches showed that interaction of data as ink can be a joyful and novel experience is substantial enough to follow up with a deployable prototype.
-
-The act of drawing with data seemed to bring the data back and close to the body; as if putting the pen to draw diagrams of the data back into the hands of the person from whom the data came from.
+In summary, the code sketches showed that interaction of data as ink can be a joyful and novel experience which can be followed up using a touch based drawing hardware and real data in a deployable prototype.
 
 The exploration produced three key insights:
 
-1) The interaction creates an unfamiliar but intriguing and meaningful space to reflect on body related data of ourselves.
-2) Activated through movement, data as 'ink' becomes a visual and tactile collaborative resource, encouraging embodied reflection with and through data *in time*.
-3) The purpose of the drawings is to serve as a visual memory aide, a reverberation of a resonance with data of the body. They do not provide an exact representation of the data for analysis.
+1) The act of drawing with data brings the data of the body back and close to the body; as if putting the pen to draw diagrams of the data back into the hands of the person from whom the data came from.
+2) The interaction creates an unfamiliar but intriguing and meaningful space to reflect on body related data of ourselves.
+3) Activated through movement, data as 'ink' becomes a visual and tactile collaborative resource, encouraging embodied reflection with and through data *in time*.
 
-Key to the prototyping process was to bring together the imagined and the lived experience by putting a conceptual idea of 'data as ink' into an interactive sketch. Connecting an actual data set, preliminary data processing, and programming showed that even by simple doodling there was an unexpected joy of anticipating behaviour of the 'ink'. This opened new ways to reflect and literally re-view data in an embodied way.
-<!-- To address a space of reflection on data of one's own body I followed the present design strategy of minimization. Simple black and white lines worked well to focus the on the fact of drawing with data and not distract with additional complexity. -->
-Does the joyful experience of data as ink also resonate with others than the creative technologist who made it?
+The purpose of the drawings is to serve as a visual memory aide, a reverberation of a resonance with data of the body. They do not provide an exact representation of the data for analysis.
+
+Key to the prototyping process was to bring together the imagined and the lived experience by putting a conceptual idea of 'data as ink' into an interactive sketch. Connecting an actual (although pre-recorded) data set, preliminary data processing, and programming showed that even through simple doodling unexpected joy of anticipating behaviour of the 'ink' was significantly different to conventional forms such as bar graphs, charts, and others. This opened new ways to reflect and literally re-trace data in an embodied way.
+
+The emerging follow-up research question to asks: Does the joyful experience of data as ink also resonate with others than the creative technologist who made it?
 
 # Making a Drawing Thing
 
-The code for the prototype is openly available [as part of this documentation here](code/the-drawing-thing).
+(The code for this prototype is openly available [as part of this documentation here](code/the-drawing-thing)).
 
-For a deployable prototype the sketches had to be consolidated into a self-contained object with a functional connection to a data store of actual captured steps and an embedded Drawing surface. Because making a step tracker had failed in terms accuracy, I decided to use a smartphone as a hardware platform. It is an established hardware platform, is ready at hand in the current situation of working from home, and it is a device known to participants.
+Making 'The Drawing Thing' is the final step of prototypes addressing the question:
+
+- Can we bring the drawing experience closer to the body?
+
+By using a smartphone as familiar (mundane) hardware platform we address the challenges of accuracy and energy management identified earlier. It is an established hardware platform, is ready at hand in the current situation of working from home, and it is a device familiar to participants. Furthermore, the touchscreen and a built-in tactile feedback unit addresses tangible requirements to address closeness additional to the conceptual aspect of 'data as ink'.
+
+For a deployable prototype, the p5js sketches of the previous step had to be ported into a standalone application, native to the operating system (iOS).
 
 ## Technical challenges and approaches
 
-Most smartphone feature built-in step tracking. To minimize privacy issues I used old Apple iPhone. For initial sketches my personal phone and for the deployment a separate re-used device fully self-contained; factory reset and stripped of any applications, features, and settings as possible, with a separate account for each device.
-Apple's HealthKit—a code library/programming framework—provides to access the specialized store for health related data. The prototype benefits from the process that users have to actively consent to individual data characteristics (and which also cannot be sidelined by the programmer). Furthermore, the smartphone as a hardware platform provides sophisticated power management, will record the steps efficiently even when phone is not active, and lastly features a touch screen for the drawing canvas. These aspects made it a good candidate to use and focus on the experience of drawing with data in a reliable environment.
-To port the sketches in JavaScript into an application for iOS with access to the HeathKit data store, I learned enough of the Swift programming language to establish a fluent making process.
+Most smartphone feature built-in step tracking. To minimize privacy issues I used old Apple iPhone. For initial sketches my personal phone. For the deployment a separate re-used device fully self-contained, factory reset and stripped of any applications, features, and settings as possible, with a separate account for each device.
+HealthKit is Apple's code library/programming framework providing to access the specialized encrypted and access controlled data storage for health related data on the device. For example, the prototype benefits from the built-in feature that users must to actively consent to individual data characteristics before any application code can access the data. The operating system presents users/participants a screen familiar to them. The choices made can be changed at any point in a separate application.
+Furthermore, the smartphone as a hardware platform provides sophisticated power management, enabling recording of steps efficiently even when phone is not active, and it features a touch screen for the drawing canvas. These aspects made it a good candidate to use and focus on the experience of drawing with data in a reliable environment.
+To port the sketches in JavaScript into an application for iOS with access to the HeathKit data store, I gradually learned the Swift programming language to establish a fluent making process.
 
 ## Initial Version
 
 ![Testing the initial version](figures/figures.010.png)
 
-The design goal of the initial version was to use and show as little technology and capability as possible. Because the device was black, the canvas is black which resulted in a consistent solid appearance of the device when the canvas is empty; the infamous black brick.
+The design goal of the initial version was to use and show as little technology and capability as possible. Because the device was black, the canvas became black. This further consolidated a consistent solid appearance of the device when the canvas is empty; the infamous black brick. Posing a intensional 'un-open' impression to contrast the open exploration through drawing with one's own data.
 
 The structure of the programming interface of the underlying data storage (Apple HealthKit) to retrieve data, two time related parameters must be provided: 1) a start and end date for which to request data, and 2) the interval in which the measurements will be summarized. After trying different intervals, steps per minute revealed the best balance between granularity and amount of resulting ink.
 
@@ -170,7 +181,7 @@ Based on the former sketches the first data to ink algorithm only produced black
 
 ## A minimal graphical user interface
 
-![](figures/figures.011.png)
+![Minimal user interface elements](figures/figures.011.png)
 
 The very first iterations of the prototype had no graphical user interface. However, to enable sharing of drawings in conventional ways, a manual clearing of the canvas, and access to the settings for stroke behaviour and how many days of data to consider, I added a minimal UI.
 
