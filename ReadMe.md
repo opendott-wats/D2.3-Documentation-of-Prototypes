@@ -5,7 +5,8 @@ title: D2.3 Documentation of Prototypes
 
 # Abstract
 
-The following documentation provides account of the development process of interactive prototypes to explore how creative technologist practice can enable nourishing relationships between internet connected technologies and the experience of our bodies. There are three approaches of prototypes: [Making a Step Tracker](#making-a-step-tracker), [Exploring Data as Ink](#exploring-data-as-ink), and [Making a Drawing Thing](#making-a-drawing-thing). The repository captures notes during the making phase, reflections on code and hardware related as integral to design decisions, and documents making aspects of the co-design process when the final prototype was deployed with a participant.
+The following documentation provides account of the development process of interactive prototypes to explore how creative technologist practice can enable nourishing relationships between internet connected technologies and the experience of our bodies. There are three approaches of prototypes: [Making a Step Tracker using open technologies](#making-a-step-tracker), [Exploring 'Data as Ink'](#exploring-data-as-ink), and [Making 'The Drawing Thing'](#making-a-drawing-thing). The repository captures notes during the making phase, reflections on code and hardware related as integral to design decisions, and documents making aspects of the co-design process when the final prototype was deployed with a participant. All code relevant for the prototype is openly available [as part of this documentation here](code/).
+
 
 # Acknowledgements
 
@@ -17,13 +18,19 @@ This project is part of [Open Design of Trusted Things (OpenDoTT) doctoral train
 
 # Introduction
 
-All code relevant for the prototype is openly available [as part of this documentation here](code/).
+The overarching research question that informs the research presented in this documentation asks:
 
-There are three approaches of prototypes over the course of WP2: [Making a Step Tracker](#making-a-step-tracker), [Exploring Data as Ink](#exploring-data-as-ink), and [Making a Drawing Thing](#making-a-drawing-thing).
+- How can creative technologist practice enable nourishing relationship between internet connected technologies and our bodies and sense of self?
 
-As a creative technologist I use electronics and code as ways to investigate material and concepts. This research through design is based on a thinking through making approach employing code and electronic hardware as materials of inquiry. Making physical digital prototypes allows me to assess the material quality, potentials, and behaviour; but also my own agency as a researcher towards the material—of sensors and microprocessor prototyping boards and other digital components related to internet connected technology for the body.
+It addresses the main objective of WP2: to develop capacity to shape emerging best practices around the use of open technology and practices in relation to wearable technologies.
 
-Based on [insights I gained from the open technology training in WP2](#learning-from-open-technology-training) I decided to focus on step count data as an iconic, well known data characteristic and making step trackers as single function, relatable digital wearables.
+The methodology is research through design based on a thinking through making approach. By employing code and electronic hardware as materials of inquiry I investigate as a creative technologist the making of physical digital prototypes in relation to step tracking as an iconic representation of wearables and the body. The thinking through making also examines my own agency as a researcher towards the material—of sensors, microprocessor prototyping boards, other digital components related to internet connected technology for the body.
+
+The development of prototypes took place in three major steps:
+
+1) [Making a step tracker using open technologies](#making-a-step-tracker)
+2) [Exploring 'Data as Ink' using creative coding](#exploring-data-as-ink)
+3) [Making 'The Drawing Thing'](#making-a-drawing-thing)
 
 To understand the concept of step tracker I set out to think it through by making one. In parallel, I explored the idea of using 'data as ink' by making a simply drawing application and using pre-recorded data. In connection with the co-designed IoT concept 'Haptic Memories' from WP1, insights from both lines of inquiry led to the concept: 'The Drawing Thing'. This final prototype was then deployed with a participant (remotely) and extended collaboratively with them in co-design activity over the course of 3 months with regular meetings every two to three weeks.
 
@@ -34,7 +41,9 @@ Further, accuracy of sensors and/or algorithms turned out to be a crucial aspect
 ## Why focus on step data
 
 <!-- Tracking of steps or better, step count data, is chosen because -->
-The prototypes focused on step tracking or step data mainly for two reasons 1) it is an iconic and commonly known data characteristic of the body; 2) doing steps and counting them is tangibly relatable. The hypothesis is that by creating new ways of tangible interaction with the data we gain insights on other forms of relating and having agency to data of the body. However, the simplicity of the data turned out not to be easy to implement algorithmically, as I experienced in making a step tracker.
+To focus on relationships to data I chose step tracking (step count data) because 1) it is an iconic and commonly known data characteristic of the body; 2) doing steps and counting them is tangibly relatable. The choice is further informed by [the insight I gained from the open technology training](#learning-from-open-technology-training) that reducing functionality in a prototype is beneficial to background technological trivia and distractions.
+
+The hypothesis is that by bringing a well understood type of data (step count) of the body back to the body, we can gain insights on other forms of relating and creating agency to devices and data of the body. However, the simplicity of step data turned out not to be easy to implement algorithmically, as I experienced by making a step tracker.
 
 ## Learning from Open Technology training
 
@@ -46,9 +55,13 @@ The key learning from the Open Technology training is that an inquiry into the r
 
 ![Final Step Tracker used for test runs](figures/figures.004.png)
 
-Based on the insight to minimize and focus on single function in terms of technology, I began to make a step tracker to get to know this kind of wearable with and through material exploration. Regarding context and intention, a key aspect I applied to the making is to put myself in the position of someone wanting to make a step tracker at home. It should allow me to assess the understandability of resources openly available in contrast to sophisticated industrial products. This also addresses the challenges of making physical digital prototypes at home with constraint facilities during a pandemic situation.
+Based on the insight to minimize and focus on single function in terms of technology, I began to make a step tracker to get to know this kind of wearable with and through material exploration with the following research question:
 
-The aim is to think through required components, explore their materiality in hardware and software, and assess how feasible it is in the context of the research to make without becoming an engineering task. Very early in the process of making it became clear that the amount of components it too high. For example, finding a board with a similar set of sensors but with an onboard charging unit would simplify the making. For all the sketches I continued to use open technology as much as possible. First I used what I had available to begin making as quickly as possible.
+- Can I make a wearable step tracker using open technologies which is accurate and trustworthy enough to be deployable with participants?
+
+The key aspect I applied to the making was to put myself in the position of someone wanting to make a step tracker at home. It should allow me to assess the understandability of resources openly available in contrast to sophisticated industrial products. As a side effect, this also addresses the challenges of making physical digital prototypes at home with constraint facilities during a pandemic situation.
+
+The making enabled to think through required components, explore their materiality in hardware and software, and assess how feasible it is in the context of the research to make without becoming an engineering task. Very early in the process of making it became clear that the amount of components it too high. For example, finding a board with a similar set of sensors but with an onboard charging unit would simplify the making. For all the sketches I continued to use open technology as much as possible. First I used what I had available to begin making as quickly as possible.
 
 ## Using an online tutorial
 
