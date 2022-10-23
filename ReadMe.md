@@ -5,7 +5,7 @@ title: D2.3 Documentation of Prototypes
 
 # Abstract
 
-The following documentation provides account of the development process of interactive prototypes to explore how creative technologist practice can enable nourishing relationships between internet connected technologies and the experience of our bodies. There are three approaches of prototypes: [Making a Step Tracker using open technologies](#making-a-step-tracker), [Exploring 'Data as Ink'](#exploring-data-as-ink), and [Making 'The Drawing Thing'](#making-a-drawing-thing). The repository captures notes during the making phase, reflections on code and hardware related as integral to design decisions, and documents making aspects of the co-design process when the final prototype was deployed with a participant. All code relevant for the prototype is openly available [as part of this documentation here](code/).
+The following documentation provides account of the development process of interactive prototypes to explore how creative technologist practice can enable nourishing relationships between internet connected technologies and the experience of our bodies. There are three approaches of prototypes: [Making a Step Tracker using open technologies](#making-a-step-tracker), [Exploring 'Data as Ink'](#exploring-data-as-ink), and [Making 'The Drawing Thing'](#making-the-drawing-thing). The repository captures notes during the making phase, reflections on code and hardware related as integral to design decisions, and documents making aspects of the co-design process when the final prototype was deployed with a participant. All code relevant for the prototype is openly available [as part of this documentation here](code/).
 
 
 # Acknowledgements
@@ -28,14 +28,14 @@ The development of prototypes took place in three major steps:
 
 1) [Making a step tracker using open technologies](#making-a-step-tracker)
 2) [Exploring 'Data as Ink' using creative coding](#exploring-data-as-ink)
-3) [Making 'The Drawing Thing'](#making-a-drawing-thing)
+3) [Making 'The Drawing Thing'](#making-the-drawing-thing)
 
 To understand the concept of step tracker I set out to think it through by making one. In parallel, I explored the idea of using 'data as ink' by making a simply drawing application and using pre-recorded data. In connection with the co-designed IoT concept 'Haptic Memories' from WP1, insights from both lines of inquiry led to the final prototype: 'The Drawing Thing'. This prototype was then deployed with a participant (remotely) and extended collaboratively with them in co-design activity over the course of 3 months with regular meetings every two to three weeks.
 
 To address this, I pursued a radical minimization approach to guide design decisions in the process, forming a lean technology approach in prototyping for the body. This also connects to other contexts i.e., to data minimization in relation to GDPR or the notion of lean data as used by Mozilla.
 Further, accuracy of sensors and/or algorithms turned out to be a crucial aspect to have a reliable common ground. This influenced the choice of hardware for the final prototype: using a smartphone. While it opposes the initial objective of using open technology, it addressed the issue of accuracy, provided a know and potentially trusted platform for working with participants, and made me review the lived experience of open technology.
 
-## Why focus on step data
+## Why focus on step data?
 
 <!-- Tracking of steps or better, step count data, is chosen because -->
 To focus on relationships to data I chose step tracking (step count data) because 1) it is an iconic and commonly known data characteristic of the body; 2) doing steps and counting them is tangibly relatable. The choice is further informed by [the insight I gained from the open technology training](#learning-from-open-technology-training) that reducing functionality in a prototype is beneficial to background technological trivia and distractions.
@@ -142,7 +142,7 @@ Key to the prototyping process was to bring together the imagined and the lived 
 
 The emerging follow-up research question to asks: Does the joyful experience of data as ink also resonate with others than the creative technologist who made it?
 
-# Making a Drawing Thing
+# Making The Drawing Thing
 
 (The code for this prototype is openly available [as part of this documentation here](code/the-drawing-thing)).
 
