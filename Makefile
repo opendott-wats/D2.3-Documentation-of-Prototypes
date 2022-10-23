@@ -30,3 +30,9 @@ watch:
 	nodemon --exec "make all" -e "md bib" -i output/$(OUTPUT).md
 
 all: html report article docx md
+
+release: all
+	git commit -am "updates"
+
+upload:
+	git push --follow-tags
