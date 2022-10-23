@@ -36,3 +36,5 @@ release: all
 
 upload:
 	git push --follow-tags
+
+deploy: release upload
