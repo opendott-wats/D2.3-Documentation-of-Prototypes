@@ -4,9 +4,9 @@ OUTPUT=D2.3-Documentation-of-Prototypes-ESR1
 OPTIONS=--metadata-file=meta.yml -F pandoc-crossref --citeproc\
 	-f markdown+rebase_relative_paths \
 	--strip-comments \
-	--toc \
 	--resource-path figures:screenshots
 
+# --toc \
 # --number-sections \
 
 CMD=pandoc $(OPTIONS) $(FILES)
